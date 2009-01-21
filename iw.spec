@@ -1,11 +1,11 @@
 Summary:	nl80211 based CLI
 Name:		iw
-Version:	0.9.5
+Version:	0.9.8
 Release:	1
 License:	BSD
 Group:		Networking/Admin
 Source0:	http://wireless.kernel.org/download/iw/%{name}-%{version}.tar.bz2
-# Source0-md5:	65582a45f016f0e699f1816265a222d2
+# Source0-md5:	d39f85e3866b1be5533fe0edce412951
 URL:		http://wireless.kernel.org/en/users/Documentation/iw
 BuildRequires:	libnl-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
