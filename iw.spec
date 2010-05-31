@@ -8,6 +8,7 @@ Source0:	http://wireless.kernel.org/download/iw/%{name}-%{version}.tar.bz2
 # Source0-md5:	3b88743f9c6ce8a7e2f5fd7d18fdea42
 URL:		http://wireless.kernel.org/en/users/Documentation/iw
 BuildRequires:	libnl-devel
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_sbindir	/sbin
