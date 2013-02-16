@@ -5,7 +5,7 @@ Version:	3.8
 Release:	4
 License:	BSD
 Group:		Networking/Admin
-Source0:	http://wireless.kernel.org/download/iw/%{name}-%{version}.tar.bz2
+Source0:	http://kernel.org/pub/software/network/iw/%{name}-%{version}.tar.bz2
 # Source0-md5:	618ad1106a196fb1c3d827de96da437c
 URL:		http://wireless.kernel.org/en/users/Documentation/iw
 BuildRequires:	libnl-devel >= 1:3.2
@@ -24,6 +24,8 @@ narzędzie do konfiguracji urządzeń bezprzewodowych.
 
 %prep
 %setup -q
+
+sed -i -e 's#git rev-parse#false#g' version.sh
 
 %build
 CC="%{__cc}" \
