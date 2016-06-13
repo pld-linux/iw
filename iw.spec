@@ -1,12 +1,12 @@
 Summary:	iw - utility to show or manipulate wireless devices and their configuration
 Summary(pl.UTF-8):	iw - narzędzie do wyświetlania i modyfikowania konfiguracji urządzeń bezprzewodowych
 Name:		iw
-Version:	4.3
+Version:	4.7
 Release:	1
 License:	BSD
 Group:		Networking/Admin
 Source0:	https://www.kernel.org/pub/software/network/iw/%{name}-%{version}.tar.xz
-# Source0-md5:	7adec72e91ebdd9c55429fa34a23a6f5
+# Source0-md5:	c70b4500255c816b202e3561c901af4a
 URL:		http://wireless.kernel.org/en/users/Documentation/iw
 BuildRequires:	libnl-devel >= 1:3.2
 BuildRequires:	pkgconfig
